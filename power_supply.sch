@@ -1,0 +1,394 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1300 1250 0    50   ~ 0
+Power Supply Filtering and Regulation
+$Comp
+L power:VBUS #PWR?
+U 1 1 61F3C744
+P 1700 1900
+F 0 "#PWR?" H 1700 1750 50  0001 C CNN
+F 1 "VBUS" H 1715 2073 50  0000 C CNN
+F 2 "" H 1700 1900 50  0001 C CNN
+F 3 "" H 1700 1900 50  0001 C CNN
+	1    1700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F3E12D
+P 1700 2300
+F 0 "C?" H 1792 2346 50  0000 L CNN
+F 1 "1uF" H 1792 2255 50  0000 L CNN
+F 2 "" H 1700 2300 50  0001 C CNN
+F 3 "~" H 1700 2300 50  0001 C CNN
+	1    1700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F3ED1E
+P 2600 2300
+F 0 "C?" H 2692 2346 50  0000 L CNN
+F 1 "1uF" H 2692 2255 50  0000 L CNN
+F 2 "" H 2600 2300 50  0001 C CNN
+F 3 "~" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61F3F5A7
+P 2150 2050
+F 0 "L?" V 2340 2050 50  0000 C CNN
+F 1 "L" V 2249 2050 50  0000 C CNN
+F 2 "" H 2150 2050 50  0001 C CNN
+F 3 "~" H 2150 2050 50  0001 C CNN
+	1    2150 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:HT75xx-1-SOT89 U?
+U 1 1 61F3B294
+P 4350 2150
+F 0 "U?" H 4350 2517 50  0000 C CNN
+F 1 "HT75xx-1-SOT89" H 4350 2426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 4350 2475 50  0001 C CIN
+F 3 "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf" H 4350 2250 50  0001 C CNN
+	1    4350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F3D1A3
+P 3700 2350
+F 0 "C?" H 3792 2396 50  0000 L CNN
+F 1 "C_Small" H 3792 2305 50  0000 L CNN
+F 2 "" H 3700 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F3DDDE
+P 5000 2350
+F 0 "C?" H 5092 2396 50  0000 L CNN
+F 1 "C_Small" H 5092 2305 50  0000 L CNN
+F 2 "" H 5000 2350 50  0001 C CNN
+F 3 "~" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F3E682
+P 4350 2700
+F 0 "#PWR?" H 4350 2450 50  0001 C CNN
+F 1 "GND" H 4355 2527 50  0000 C CNN
+F 2 "" H 4350 2700 50  0001 C CNN
+F 3 "" H 4350 2700 50  0001 C CNN
+	1    4350 2700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6750 1300 6750 4950
+Wire Notes Line
+	1050 1300 1050 4950
+$Comp
+L Regulator_Switching:TLV62569DBV U?
+U 1 1 61F456D3
+P 4350 3650
+F 0 "U?" H 4350 4017 50  0000 C CNN
+F 1 "TLV62569DBV" H 4350 3926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4400 3400 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 4100 4100 50  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F46ADF
+P 3550 3650
+F 0 "C?" H 3642 3696 50  0000 L CNN
+F 1 "C_Small" H 3642 3605 50  0000 L CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "~" H 3550 3650 50  0001 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F47541
+P 5500 3650
+F 0 "C?" H 5592 3696 50  0000 L CNN
+F 1 "C_Small" H 5592 3605 50  0000 L CNN
+F 2 "" H 5500 3650 50  0001 C CNN
+F 3 "~" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F484F7
+P 6000 3700
+F 0 "R?" H 6070 3746 50  0000 L CNN
+F 1 "R" H 6070 3655 50  0000 L CNN
+F 2 "" V 5930 3700 50  0001 C CNN
+F 3 "~" H 6000 3700 50  0001 C CNN
+	1    6000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F4A66D
+P 6000 4200
+F 0 "R?" H 6070 4246 50  0000 L CNN
+F 1 "R" H 6070 4155 50  0000 L CNN
+F 2 "" V 5930 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61F4AA46
+P 6300 3650
+F 0 "C?" H 6392 3696 50  0000 L CNN
+F 1 "DNP" H 6392 3605 50  0000 L CNN
+F 2 "" H 6300 3650 50  0001 C CNN
+F 3 "~" H 6300 3650 50  0001 C CNN
+	1    6300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61F4AF21
+P 5050 3550
+F 0 "L?" V 5240 3550 50  0000 C CNN
+F 1 "L" V 5149 3550 50  0000 C CNN
+F 2 "" H 5050 3550 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F4C57F
+P 1700 2550
+F 0 "#PWR?" H 1700 2300 50  0001 C CNN
+F 1 "GND" H 1705 2377 50  0000 C CNN
+F 2 "" H 1700 2550 50  0001 C CNN
+F 3 "" H 1700 2550 50  0001 C CNN
+	1    1700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F4D524
+P 2600 2550
+F 0 "#PWR?" H 2600 2300 50  0001 C CNN
+F 1 "GND" H 2605 2377 50  0000 C CNN
+F 2 "" H 2600 2550 50  0001 C CNN
+F 3 "" H 2600 2550 50  0001 C CNN
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1900 1700 2050
+Wire Wire Line
+	1700 2050 2000 2050
+Connection ~ 1700 2050
+Wire Wire Line
+	1700 2050 1700 2200
+Wire Wire Line
+	2600 2400 2600 2550
+Wire Wire Line
+	1700 2400 1700 2550
+Wire Wire Line
+	2300 2050 2600 2050
+Wire Wire Line
+	3700 2050 3700 2250
+Wire Wire Line
+	3700 2050 4050 2050
+Wire Wire Line
+	5000 2050 5000 2250
+Wire Wire Line
+	4350 2350 4350 2550
+Wire Wire Line
+	3700 2450 3700 2550
+Wire Wire Line
+	3700 2550 4350 2550
+Connection ~ 4350 2550
+Wire Wire Line
+	4350 2550 4350 2700
+Wire Wire Line
+	5000 2450 5000 2550
+Wire Wire Line
+	4350 2550 5000 2550
+Wire Wire Line
+	4650 2050 5000 2050
+Wire Wire Line
+	3100 2050 3100 3550
+Wire Wire Line
+	3100 3550 3550 3550
+Wire Wire Line
+	3550 3550 3900 3550
+Connection ~ 3550 3550
+$Comp
+L power:GND #PWR?
+U 1 1 61F545BA
+P 4350 4100
+F 0 "#PWR?" H 4350 3850 50  0001 C CNN
+F 1 "GND" H 4355 3927 50  0000 C CNN
+F 2 "" H 4350 4100 50  0001 C CNN
+F 3 "" H 4350 4100 50  0001 C CNN
+	1    4350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F54F80
+P 3550 3750
+F 0 "#PWR?" H 3550 3500 50  0001 C CNN
+F 1 "GND" H 3555 3577 50  0000 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3950 4350 4100
+Wire Wire Line
+	3900 3550 3900 3650
+Wire Wire Line
+	3900 3650 4050 3650
+Connection ~ 3900 3550
+Wire Wire Line
+	3900 3550 4050 3550
+Wire Wire Line
+	4650 3550 4900 3550
+Wire Wire Line
+	5200 3550 5500 3550
+$Comp
+L power:GND #PWR?
+U 1 1 61F567A3
+P 5500 3750
+F 0 "#PWR?" H 5500 3500 50  0001 C CNN
+F 1 "GND" H 5505 3577 50  0000 C CNN
+F 2 "" H 5500 3750 50  0001 C CNN
+F 3 "" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3550 6000 3550
+Connection ~ 5500 3550
+Wire Wire Line
+	6000 3850 6000 4000
+Wire Wire Line
+	6000 4000 5000 4000
+Wire Wire Line
+	5000 4000 5000 3650
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4000 6000 4050
+Wire Wire Line
+	4650 3650 5000 3650
+Wire Wire Line
+	6000 3550 6300 3550
+Connection ~ 6000 3550
+Wire Wire Line
+	6000 4000 6300 4000
+Wire Wire Line
+	6300 4000 6300 3750
+$Comp
+L power:GND #PWR?
+U 1 1 61F59ED2
+P 6000 4350
+F 0 "#PWR?" H 6000 4100 50  0001 C CNN
+F 1 "GND" H 6005 4177 50  0000 C CNN
+F 2 "" H 6000 4350 50  0001 C CNN
+F 3 "" H 6000 4350 50  0001 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F5A67A
+P 3400 2050
+F 0 "R?" V 3193 2050 50  0000 C CNN
+F 1 "R" V 3284 2050 50  0000 C CNN
+F 2 "" V 3330 2050 50  0001 C CNN
+F 3 "~" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 2050 3250 2050
+Wire Wire Line
+	3550 2050 3700 2050
+Connection ~ 3700 2050
+Wire Notes Line
+	7000 1300 7000 4100
+Wire Notes Line
+	7000 4100 10100 4100
+Wire Notes Line
+	10100 4100 10100 1300
+Wire Notes Line
+	7000 1300 10100 1300
+Text Notes 7050 1250 0    50   ~ 0
+Bias Generator
+Wire Wire Line
+	2600 2050 2600 2200
+Wire Wire Line
+	2600 2050 3100 2050
+Connection ~ 2600 2050
+Connection ~ 3100 2050
+Wire Notes Line
+	1050 4950 6750 4950
+Wire Notes Line
+	1050 1300 6750 1300
+Text Notes 3800 1650 0    50   ~ 0
+Linear Low-dropout Regulator
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 61F8BEE9
+P 5000 2050
+F 0 "#PWR?" H 5000 1900 50  0001 C CNN
+F 1 "+3.3VA" H 5015 2223 50  0000 C CNN
+F 2 "" H 5000 2050 50  0001 C CNN
+F 3 "" H 5000 2050 50  0001 C CNN
+	1    5000 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 2050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61F8CA1F
+P 6300 3550
+F 0 "#PWR?" H 6300 3400 50  0001 C CNN
+F 1 "+3.3V" H 6315 3723 50  0000 C CNN
+F 2 "" H 6300 3550 50  0001 C CNN
+F 3 "" H 6300 3550 50  0001 C CNN
+	1    6300 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 3550
+Text Label 3700 2050 0    50   ~ 0
+LDO_VIN
+Text Label 3700 3550 0    50   ~ 0
+SW_VIN
+$EndSCHEMATC
