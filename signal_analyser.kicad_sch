@@ -91,6 +91,9 @@
     (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/7b784452-8fd9-4902-b244-8e749826f330"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/82944f85-96f2-47c7-ac5f-21d374538e10"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061f3b48b/8bfb6319-5d9d-4706-9dd0-305b3e46d1b4"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
@@ -157,8 +160,14 @@
     (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/61cdfc25-531b-41fc-ac0e-1ff70bb335c3"
       (reference "C?") (unit 1) (value "100n") (footprint "")
     )
+    (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/78beec89-8c96-47d3-81f5-bcebaedbd1ee"
+      (reference "C?") (unit 1) (value "10p") (footprint "")
+    )
     (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/8969c368-9450-49fd-9efc-0e8562dc0033"
       (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/8cfb6b87-8edf-4d03-883c-9842753852a5"
+      (reference "C?") (unit 1) (value "10p") (footprint "")
     )
     (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/b469e189-be9e-4478-ab0a-62b1edcf3e48"
       (reference "C?") (unit 1) (value "100n") (footprint "")
@@ -202,6 +211,9 @@
     (path "/00000000-0000-0000-0000-000061f3b48b/cdaefa76-1322-4397-9607-b817f6b1b14a"
       (reference "R?") (unit 1) (value "1k") (footprint "")
     )
+    (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/d3ab58c8-395b-486c-a99f-51c2beb0b1ee"
+      (reference "R?") (unit 1) (value "100") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061f3b48b/00000000-0000-0000-0000-000061f3b294"
       (reference "U?") (unit 1) (value "HT7533-1") (footprint "Package_TO_SOT_SMD:SOT-89-3")
     )
@@ -213,6 +225,9 @@
     )
     (path "/00000000-0000-0000-0000-000061f3b48b/cf6f293e-ccfc-4a64-befd-85cb17e34f36"
       (reference "U?") (unit 1) (value "MCP6001T-E/OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/eccad5a0-ddbd-4a3e-af28-d21812660dc8/e75e71f9-8c89-4376-9c3e-0f058108022f"
+      (reference "Y?") (unit 1) (value "16MHz") (footprint "")
     )
   )
 )
