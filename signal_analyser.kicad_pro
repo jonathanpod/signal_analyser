@@ -327,6 +327,10 @@
     [
       "eccad5a0-ddbd-4a3e-af28-d21812660dc8",
       "Microcontroller & USB"
+    ],
+    [
+      "a826d4f1-aa41-4d34-8070-125b5f8ee214",
+      "ADC & DAC Circuitry"
     ]
   ],
   "text_variables": {}
