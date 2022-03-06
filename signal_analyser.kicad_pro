@@ -330,7 +330,11 @@
     ],
     [
       "a826d4f1-aa41-4d34-8070-125b5f8ee214",
-      "ADC & DAC Circuitry"
+      "ADC & Analogue In"
+    ],
+    [
+      "fc81bd0c-e3fd-4faa-9bb2-075e8ca5f703",
+      "DAC & Analogue Out"
     ]
   ],
   "text_variables": {}
