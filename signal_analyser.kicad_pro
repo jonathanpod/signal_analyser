@@ -278,7 +278,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 399,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -322,19 +322,19 @@
     ],
     [
       "00000000-0000-0000-0000-000061f3b48b",
-      "Power Supply"
+      "[1] Power Supply"
     ],
     [
       "eccad5a0-ddbd-4a3e-af28-d21812660dc8",
-      "Microcontroller & USB"
+      "[2] Microcontroller & USB"
     ],
     [
       "a826d4f1-aa41-4d34-8070-125b5f8ee214",
-      "ADC & Analogue In"
+      "[3] ADC & Analogue In"
     ],
     [
       "fc81bd0c-e3fd-4faa-9bb2-075e8ca5f703",
-      "DAC & Analogue Out"
+      "[4] DAC & Analogue Out"
     ]
   ],
   "text_variables": {}
